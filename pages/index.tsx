@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+// import Image from 'next/image'
+// import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -44,7 +44,8 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className="h-4 ml-2">
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
