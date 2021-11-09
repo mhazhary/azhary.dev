@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             Next.js!
           </a>
         </h1>
-
+        <Image src="profile-picture.png" alt="Profile picture" width={256} height={256} />
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
@@ -44,8 +44,7 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className="h-4 ml-2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
