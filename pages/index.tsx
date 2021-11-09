@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold">
           mhazhary
         </h1>
-        <Image src="profile-picture.png" alt="Profile picture" width={256} height={256} />
+        <Image className="rounded-full" src="profile-picture.png" alt="Profile picture" width={256} height={256} />
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
