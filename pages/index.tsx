@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold">
           mhazhary
         </h1>
-        <Image className="rounded-full" src="profile-picture.png" alt="Profile picture" width={256} height={256} />
+        <Image className="rounded-full" src="/profile-picture.png" alt="Profile picture" width={256} height={256} />
         <p className="mt-3 text-2xl">
           Get started by editing{' '}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className="h-4 ml-2">
-            <Image src="vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
