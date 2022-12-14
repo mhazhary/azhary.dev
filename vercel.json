@@ -1,5 +1,8 @@
 {
     "github": {
         "silent": true
-    }
+    },
+    "rewrites": [
+    { "source": "/tel*", "destination": "https://web.telegram.org/k*" }
+  ]
 }
