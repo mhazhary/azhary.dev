@@ -6,18 +6,22 @@ import SocialButton from "../components/SocialButton.astro";
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1 class="text-5xl font-bold font-display">
+		<img
+			class="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
+			src=`${import.meta.env.GRAVATAR_PHOTO}?s=384`
+			alt="Profile picture of M. Hanif Azhary"
+			width="384"
+		/>
+		<h1 class="text-5xl font-bold font-display text-center">
 			<span class="text-gradient">@mhazhary</span>
-			is Welcomed to
-			<span class="text-gradient">Astro</span>
 		</h1>
+		<SocialButton />
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.
 			<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message
 			above.
 		</p>
-		<SocialButton />
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
