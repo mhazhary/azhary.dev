@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="3.5135241"
-     inkscape:cx="45.396017"
+     inkscape:cx="45.538324"
      inkscape:cy="53.080609"
      inkscape:window-width="1366"
      inkscape:window-height="699"
@@ -32,7 +32,7 @@
      inkscape:window-y="32"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     labelstyle="default"
+     showgrid="false"
      showborder="false"
      borderlayer="false" /><defs
      id="defs1" /><g
@@ -40,7 +40,7 @@
      inkscape:groupmode="layer"
      id="layer1"><path
        id="circle9"
-       style="fill:#d5e5ff;stroke-width:0.26364;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       style="fill:#ffffff;stroke-width:0.26364;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
        d="M 25.4,12.7 A 12.7,12.7 0 0 1 12.7,25.4 12.7,12.7 0 0 1 0,12.7 12.7,12.7 0 0 1 12.7,0 12.7,12.7 0 0 1 25.4,12.7 Z" /><path
        id="path6"
        style="fill:#003380;stroke:none;stroke-width:0.26364;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
