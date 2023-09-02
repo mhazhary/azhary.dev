@@ -2,13 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import SocialButton from "../components/SocialButton.astro";
+import { Image } from "astro:assets";
+import profilePicture from "../assets/profile-picture.jpg";
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <img
+    <Image
       class="w-24 h-24 md:w-48 md:h-auto rounded-full mx-auto"
-      src=`${import.meta.env.GRAVATAR_PHOTO}?s=384`
+      src={profilePicture}
       alt="Profile picture of M. Hanif Azhary"
       width="384"
       height="384"
